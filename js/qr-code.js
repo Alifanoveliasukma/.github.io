@@ -18,7 +18,7 @@ function handleQrCode() {
 // event listener: touch shortcut
 article.addEventListener("touchstart", function(event) {
 	var countTouches = event.touches.length;
-	if (countTouches == 3) {
+	if (countTouches == 2) {
 		handleQrCode();
 	}
 }, false)
